@@ -49,7 +49,7 @@ public class Mark {
     public void setPoint(double point) {
         this.point = point;
     }
-    public void inputData(Scanner scanner,int markId) {
+    public void inputData(Scanner scanner, int markId, Student[] studentsArr, int studentCount, Subject[] subjectsArr, int subjectCount) {
         this.markId  = markId + 1;
     }
     public void displayData() {}
